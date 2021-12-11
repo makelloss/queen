@@ -29,10 +29,10 @@ function play() {
     alert(card);
     if (card == "Q") {
       if (turn % 2 == 1) {
-        alert("U win");
+        alert("U win!");
         break;
       } else {
-        alert("I win");
+        alert("I win!");
         break;
       }
     }
